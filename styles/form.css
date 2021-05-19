@@ -1,0 +1,62 @@
+:root{
+    --varColor:#3A3539;
+    --varBack:#eeecee;
+    --varLetra:white;
+    }
+    
+    body{
+        
+        margin: 0;
+        background-color: #080F28;
+    }
+
+    
+  .contenedor-Formulario{
+    width: 100%;
+    
+}
+.content{
+  text-align: center;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.form h2{
+  font-size: 24px;
+  color: var(--varLetra);
+}
+
+
+.form input, select{
+    inline-size: 100%;
+    border:1px solid var(--varColor) ;
+    box-sizing: border-box;
+    color:white;
+    background-color:#251F24 ;
+    border-radius: 8px;
+    padding-inline: 16px;
+    padding-block: 12px;
+    color:var(--varLetra);
+    font-size: 16px;
+    margin-block-end:24px
+}
+
+.form input[type="submit"]{
+  background: #157EFB;
+  border: none;
+}
+
+.form label{
+    color: var(--varLetra);
+    font-size: 18px;
+}
+textarea{
+  inline-size: 100%;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 10px;
+
+}
